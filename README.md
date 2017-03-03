@@ -1,0 +1,3 @@
+# sinisuvanto.com
+
+Static site. 
