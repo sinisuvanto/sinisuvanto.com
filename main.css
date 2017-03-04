@@ -40,25 +40,39 @@ body {
 .contact-links > li {
   float:left;
   clear: left;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.contact-links > li > a {
+  line-height: 50px;
+  vertical-align: baseline;
+}
+
+.contact-links > li > a > img {
+  float: left;
+  margin-right: 10px;
 }
 
 @media (min-width: 600px) {
   .contact-links > li {
     clear: none;
+    width: 50%;
   }
   .contact-links > li:nth-child(2n+1) {
     clear: left;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
+  .contact-links > li {
+    width: 25%;
+  }
   .contact-links > li:nth-child(2n+1) {
     clear: none;
+
   }
 }
-
-
-
 
 .link-icon {
   width: 50px;
