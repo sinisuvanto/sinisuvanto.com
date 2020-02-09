@@ -1,3 +1,3 @@
 # sinisuvanto.com
 
-Static site. 
+Static site. Oh so static.
